@@ -1,0 +1,9 @@
+[package]
+name = "babichjacob-google-generative-language"
+version = "0.1.0"
+edition = "2021"
+authors = ["J / Jacob Babich <jacobbabichpublic+git@gmail.com>"]
+license = "Apache-2.0 OR MIT OR Unlicense"
+repository = "https://github.com/babichjacob/google-generative-language-rs"
+
+[dependencies]
