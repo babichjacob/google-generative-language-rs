@@ -1,9 +1,15 @@
 [package]
 name = "babichjacob-google-generative-language"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
 authors = ["J / Jacob Babich <jacobbabichpublic+git@gmail.com>"]
 license = "Apache-2.0 OR MIT OR Unlicense"
 repository = "https://github.com/babichjacob/google-generative-language-rs"
 
 [dependencies]
+deranged = { version = "0.3.11", features = ["serde"] }
+reqwest = { version = "0.12.9", default-features = false }
+serde = { version = "1.0.214", features = ["derive"] }
+thiserror = "1.0.65"
+typed-builder = "0.20.0"
+url = { version = "2.5.2", features = ["serde"] }
